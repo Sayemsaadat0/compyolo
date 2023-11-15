@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper-pagination-bullet {
+  padding: 2px;
+  width: 20px !important;
+  height: 20px !important;
+  text-align: center;
+  background: #3c08a0 !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  color: #fff;
+  background: #ed1f79 !important;
+}
+
+/* .button-next-slide .button-prev-slide .swiper-button-disabled { 
+    background-color: aqua  !important;
+    color: rebeccapurple; 
+    opacity: 0;
+} */

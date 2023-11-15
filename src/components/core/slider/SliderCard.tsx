@@ -13,7 +13,7 @@ import cardImage from "/public/card.jpg";
 const SliderCard = () => {
   return (
     <div>
-      <Card className="max-w-[350px] px-2">
+      <Card className="max-w-[450px] px-2">
         <CardHeader>
           <Image src={cardImage} alt="" />
           <CardTitle>Create project</CardTitle>
