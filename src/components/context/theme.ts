@@ -1,3 +1,4 @@
+// the values we want everyone 
 export const theme = {
     primary : {
         main : '#3f51b5',

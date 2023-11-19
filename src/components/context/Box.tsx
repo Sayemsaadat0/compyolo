@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { ThemeContext } from "./ThemeContext";
-
+// no 4 is in the page.tsx
+// 5.here we will use use context
 const Box = () => {
   const theme = useContext(ThemeContext);
   return (

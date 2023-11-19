@@ -24,7 +24,7 @@ export default function Home() {
       </QueryClientProvider> */}
       {/* <FetchSwr /> */}
       <StateFetch />
-
+      {/*4. wrapp all the children */}
       <ThemeContextProvider>
         <Box />
       </ThemeContextProvider>
