@@ -16,22 +16,16 @@ const StateFetch = () => {
     };
     fetchData();
   }, []);
-  // old ways
-  // useEffect(() => {
-  //   fetch("https://api.quotable.io/random")
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       console.log(data);
-  //       setQuote(data);
-  //     });
-  // }, []);
+
   return (
-    <div>
+    <div className="w-[50%]">
       <h1 className="text-2xl  font-bold py-2">
-        {" "}
         fetch using useState and useEffect
       </h1>
-      <p>Author : {quote?.author}</p>
+    
+      <p className="authorColor">Author : {quote?.author}</p>
+      <p >Quotes : {quote?.content}</p>
+
     </div>
   );
 };

@@ -17,7 +17,7 @@ const AxiosFetch = () => {
 
   return (
     <div className="w-[50%]">
-      <h1 className="text-2xl  font-bold py-2">fetch using axios</h1>
+      <h1 className="text-2xl  font-bold py-2">Axios Get </h1>
       <p className="text-blue-700">Author : {quote?.author}</p>
       <p className="text-orange-700">Quotes : {quote?.content}</p>
     </div>
