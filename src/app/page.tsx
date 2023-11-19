@@ -5,12 +5,13 @@ import Navigationslider from "@/components/core/slider/Navigationslider";
 import SliderCard from "@/components/core/slider/SliderCard";
 import Slidercustom from "@/components/core/slider/Slidercustom";
 import StateFetch from "@/components/core/fetchData/StateFetch";
+import AxiosFetch from "@/components/core/fetchData/AxiosFetch";
 
 export default function Home() {
   return (
     <main className="flex  flex-col items-center justify-between max-w-[1530px] mx-auto py-20  border-red-500 px-6 ">
-      <StateFetch />
-      <StateFetch />
+      <AxiosFetch />
+      {/* <StateFetch /> */}
       {/* <NewForm /> */}
       {/* <FileUpload /> */}
       {/* <FunctionalNavbar /> */}
