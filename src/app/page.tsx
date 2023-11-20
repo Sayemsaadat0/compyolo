@@ -22,7 +22,7 @@ export default function Home() {
         <WithQuery />
         <AxiosFetch / >
       </QueryClientProvider> */}
-      {/* <FetchSwr /> */}
+      <FetchSwr />
       <StateFetch />
       {/*4. wrapp all the children */}
       <ThemeContextProvider>

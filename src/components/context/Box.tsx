@@ -12,6 +12,11 @@ const Box = () => {
       }}
     >
       This is basic context api
+      <div>
+        <div>
+          <div></div>
+        </div>
+      </div>
     </div>
   );
 };
