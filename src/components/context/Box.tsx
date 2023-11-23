@@ -11,12 +11,7 @@ const Box = () => {
         color: theme.secondary.text,
       }}
     >
-      This is basic context api
-      <div>
-        <div>
-          <div></div>
-        </div>
-      </div>
+      This is basic context api test 
     </div>
   );
 };
