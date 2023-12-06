@@ -1,12 +1,13 @@
-import { count } from "console";
 import { create } from "zustand";
 
-type CountStorre = {
+type Store = {
   count: number;
-  setTen: () => void;
+  setTen: (numb: any) => void;
+  removeTen: (numb: any) => void;
 };
 
-export const useCountStore = create<CountStorre>()((set) => ({
-  count: 5,
-  setTen: (state) => set(() => ({ count: count.state + 1 })),
+export const useStore = create<Store>()((set) => ({
+  count: 1,
+  setTen: (numb) => set((state: any) => ({ count: state.count + numb })),
+  removeTen: (numb) => set((state: any) => ({ count: state.count - numb })),
 }));

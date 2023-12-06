@@ -7,6 +7,7 @@ import { QueryClient } from "@tanstack/react-query";
 import { ThemeContextProvider } from "@/components/context/ThemeContext";
 import Box from "@/components/context/Box";
 import Zstnd from "@/components/practice/Zstnd";
+import { Child } from "@/components/practice/child/Child";
 
 export default function Home() {
   const client = new QueryClient();
@@ -23,6 +24,9 @@ export default function Home() {
         <Box />
       </ThemeContextProvider> */}
       <Zstnd />
+      <div className="py-20">
+        <Child />
+      </div>
     </main>
   );
 }
