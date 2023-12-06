@@ -1,18 +1,12 @@
 "use client";
-// import NewForm from "@/components/core/formik/NewForm";
-// import FileUpload from "@/components/core/formik/FileUpload";
-// import FunctionalNavbar from "@/components/core/navbar/FunctionalNavbar";
-// import Navigationslider from "@/components/core/slider/Navigationslider";
-// import SliderCard from "@/components/core/slider/SliderCard";
-// import Slidercustom from "@/components/core/slider/Slidercustom";
-import StateFetch from "@/components/core/fetchData/StateFetch";
-import AxiosFetch from "@/components/core/fetchData/AxiosFetch";
-import FetchSwr from "@/components/core/fetchData/FetchSwr";
-import WithQuery from "@/components/core/fetchData/WithQuery";
 
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import StateFetch from "@/components/core/fetchData/StateFetch";
+import FetchSwr from "@/components/core/fetchData/FetchSwr";
+
+import { QueryClient } from "@tanstack/react-query";
 import { ThemeContextProvider } from "@/components/context/ThemeContext";
 import Box from "@/components/context/Box";
+import Zstnd from "@/components/practice/Zstnd";
 
 export default function Home() {
   const client = new QueryClient();
@@ -22,12 +16,13 @@ export default function Home() {
         <WithQuery />
         <AxiosFetch / >
       </QueryClientProvider> */}
-      <FetchSwr />
-      <StateFetch />
+      {/* <FetchSwr />
+      <StateFetch /> */}
       {/*4. wrapp all the children */}
-      <ThemeContextProvider>
+      {/* <ThemeContextProvider>
         <Box />
-      </ThemeContextProvider>
+      </ThemeContextProvider> */}
+      <Zstnd />
     </main>
   );
 }
