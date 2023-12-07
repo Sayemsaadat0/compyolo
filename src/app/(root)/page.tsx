@@ -31,8 +31,6 @@ export default function Home() {
   );
 }
 
-// min-h-screen
-
 {
   /* <NewForm /> */
 }
