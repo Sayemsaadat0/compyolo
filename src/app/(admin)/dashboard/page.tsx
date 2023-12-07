@@ -1,9 +1,11 @@
-import React from 'react'
+import Slidercustom from "@/components/core/slider/Slidercustom";
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
-  )
-}
+    <div className="w-full h-[1600px] border">
+      <Slidercustom />
+    </div>
+  );
+};
 
-export default Dashboard
+export default Dashboard;
