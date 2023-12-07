@@ -7,26 +7,24 @@ const DnavbarOne = () => {
   console.log(navBg);
 
   const ChangeNavBG = () => {
-    window.scrollY >= 80 ? setNavBg(true) : setNavBg(false);
+    window.scrollY > 20 ? setNavBg(true) : setNavBg(false);
   };
 
   useEffect(() => {
     window.addEventListener("scroll", ChangeNavBG);
-    return window.removeEventListener("scroll", ChangeNavBG);
+    return ()=> window.removeEventListener("scroll", ChangeNavBG);
   }, []);
 
   return (
-    // className="border top-0 left-0 w-full xl:fixed"
+
     <div
-      className={`border top-0 left-0 w-full bg-white ${
-        navBg ? "bg-blue-200 fixed top-0" : "bg-green-200"
-      }`}
+      className={`fixed top-0 w-full ${navBg ? "bg-red-500" : "bg-blue-500"}`}
     >
       <div className="max-w-[1500px] mx-auto grid border border-blue-300 xl:grid-cols-3">
         <div>
           <p>logo</p>
         </div>
-        <div>
+        <div className="h-12 ">
           <NavMenuList />
         </div>
         {/* small device hidden and show hamburger  */}

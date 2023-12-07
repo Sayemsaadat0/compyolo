@@ -3,13 +3,6 @@ import { NavMenuData } from "@/data/NavMenuData";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React, { FC, useState } from "react";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuGroup,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
 // main menu
 type MainmenuProps = {
@@ -102,30 +95,6 @@ const SubMenu: FC<SUbMenuPRops> = ({ title, subMenu }) => {
 </div> */
 }
 
-// const SubMenu = ({
-//     title,
-//     subMenu,
-//   }: {
-//     title: string;
-//     subMenu: { title: string; url: string }[];
-//   }) => {
-//     return (
-//       <div>
-//         <ul>
-//           <li>{title}</li>
-//           <div>
-//             {subMenu?.map((i) => {
-//               return (
-//                 <div key={Math.random()}>
-//                   <Link href={i.url}>{i.title}</Link>
-//                 </div>
-//               );
-//             })}
-//           </div>
-//         </ul>
-//       </div>
-//     );
-//   };
 
 // default
 const NavMenuList = () => {

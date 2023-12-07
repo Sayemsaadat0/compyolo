@@ -1,9 +1,6 @@
-import Slidercustom from "@/components/core/slider/Slidercustom";
-
 const Dashboard = () => {
   return (
-    <div className="w-full h-[1600px] border">
-      <Slidercustom />
+    <div className="w-full pt-20 max-w-[1500px]  mx-auto border">
     </div>
   );
 };
