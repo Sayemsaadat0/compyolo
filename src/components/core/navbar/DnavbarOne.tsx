@@ -4,7 +4,7 @@ import NavMenuList from "./NavMenuList";
 
 const DnavbarOne = () => {
   const [navBg, setNavBg] = useState(false);
-  console.log(navBg);
+  // console.log(navBg);
 
   const ChangeNavBG = () => {
     window.scrollY > 20 ? setNavBg(true) : setNavBg(false);
@@ -24,7 +24,7 @@ const DnavbarOne = () => {
         <div>
           <p>logo</p>
         </div>
-        <div className="h-12 ">
+        <div>
           <NavMenuList />
         </div>
         {/* small device hidden and show hamburger  */}

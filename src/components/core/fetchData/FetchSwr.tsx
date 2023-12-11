@@ -9,7 +9,7 @@ const fetcher = (url: any) => fetch(url).then((res) => res.json());
 
 const FetchSwr = () => {
   const { data } = useSWR("https://api.quotable.io/random", fetcher);
-  console.log(data);
+  // console.log(data);
 
   return (
     <div className="w-[50%]">
