@@ -11,11 +11,16 @@ import { Child } from "@/components/practice/child/Child";
 import ImageUploadField from "@/components/core/input/ImageUploadField";
 import FramerPractice from "@/components/core/motion/FramerPractice";
 import FirstDiv from "@/components/core/motion/FirstDiv";
+import LandingPage from "@/components/core/motion/LandingPage";
 
 export default function Home() {
   const client = new QueryClient();
   return (
-    <main className="flex  flex-col items-center justify-between max-w-[1530px] mx-auto  border-red-500 px-6">
+    <main className="">
+      <LandingPage />
+      <LandingPage />
+      <LandingPage />
+      <LandingPage />
       {/* <QueryClientProvider client={client}>
         <WithQuery />
         <AxiosFetch / >
@@ -27,12 +32,11 @@ export default function Home() {
         <Box />
       </ThemeContextProvider> */}
       {/* <Zstnd /> */}
-      <div className="pt-20  ">
-        {/* <Child /> */}
-        {/* <FramerPractice /> */}
 
-        {/* <ImageUploadField  setValue={[]} /> */}
-      </div>
+      {/* <Child /> */}
+      {/* <FramerPractice /> */}
+
+      {/* <ImageUploadField  setValue={[]} /> */}
     </main>
   );
 }
