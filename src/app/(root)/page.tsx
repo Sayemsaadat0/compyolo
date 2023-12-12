@@ -12,15 +12,19 @@ import ImageUploadField from "@/components/core/input/ImageUploadField";
 import FramerPractice from "@/components/core/motion/FramerPractice";
 import FirstDiv from "@/components/core/motion/FirstDiv";
 import LandingPage from "@/components/core/motion/LandingPage";
+import SecondDiv from "@/components/core/motion/SecondDiv";
+import ThirDiv from "@/components/core/motion/ThirDiv";
 
 export default function Home() {
   const client = new QueryClient();
   return (
     <main className="">
+      <SecondDiv />
+      <ThirDiv />
+      {/* <LandingPage />
       <LandingPage />
       <LandingPage />
-      <LandingPage />
-      <LandingPage />
+      <LandingPage /> */}
       {/* <QueryClientProvider client={client}>
         <WithQuery />
         <AxiosFetch / >
