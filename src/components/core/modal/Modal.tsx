@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import {
   Dialog,
@@ -11,16 +11,16 @@ import {
 } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import Modal from "@/components/core/modal/Modal";
 
-const MyBlog = () => {
+const Modal = () => {
+//   const [open, setOpen] = useState();
   return (
-    <div className="mx-auto px-32 py-44 w-[1500px]">
+    <div>
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline">Edit Profile</Button>
+          <Button variant="outline">Edit</Button>
         </DialogTrigger>
-        <DialogContent className="w-[825px]">
+        <DialogContent className="w-[325px]">
           <DialogHeader>
             <DialogTitle>Edit profile</DialogTitle>
             <DialogDescription>
@@ -50,7 +50,7 @@ const MyBlog = () => {
             </div>
           </div>
           <DialogFooter>
-            <Modal />
+            <Button type="submit">Save changes</Button>
           </DialogFooter>
         </DialogContent>
       </Dialog>
@@ -58,4 +58,4 @@ const MyBlog = () => {
   );
 };
 
-export default MyBlog;
+export default Modal;

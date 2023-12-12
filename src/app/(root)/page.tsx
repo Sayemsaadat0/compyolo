@@ -20,7 +20,7 @@ export default function Home() {
   const client = new QueryClient();
   return (
     <main className="">
-      <CalenderTry />
+      {/* <CalenderTry /> */}
       {/* <SecondDiv /> */}
       {/* <ThirDiv /> */}
       {/* <LandingPage />
