@@ -14,13 +14,15 @@ import FirstDiv from "@/components/core/motion/FirstDiv";
 import LandingPage from "@/components/core/motion/LandingPage";
 import SecondDiv from "@/components/core/motion/SecondDiv";
 import ThirDiv from "@/components/core/motion/ThirDiv";
+import CalenderTry from "@/components/calender/CalenderTry";
 
 export default function Home() {
   const client = new QueryClient();
   return (
     <main className="">
-      <SecondDiv />
-      <ThirDiv />
+      <CalenderTry />
+      {/* <SecondDiv /> */}
+      {/* <ThirDiv /> */}
       {/* <LandingPage />
       <LandingPage />
       <LandingPage />

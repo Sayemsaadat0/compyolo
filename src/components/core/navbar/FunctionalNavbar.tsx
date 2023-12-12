@@ -22,7 +22,7 @@ const FunctionalNavbar = () => {
                   height={100}
                   width={200}
                 /> */} 
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">Logo</h1>
+                <h1 className="text-2xl font-bold">Logo</h1>
 
                 {/* functional  button */}
                 <div className="lg:hidden">
