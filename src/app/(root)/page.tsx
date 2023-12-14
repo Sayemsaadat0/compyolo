@@ -16,12 +16,14 @@ import SecondDiv from "@/components/core/motion/SecondDiv";
 import ThirDiv from "@/components/core/motion/ThirDiv";
 import CalenderTry from "@/components/calender/CalenderTry";
 import Gradient from "@/components/core/gradient/Gradient";
+import MentorDetailCard from "@/components/core/card/MentorDetailCard";
 
 export default function Home() {
   const client = new QueryClient();
   return (
-    <main className="py-44">
-      <Gradient />
+    <main className="py-44 max-w-[1400px] mx-auto px-20">
+      <MentorDetailCard />
+      {/* <Gradient /> */}
       {/* <CalenderTry /> */}
       {/* <SecondDiv /> */}
       {/* <ThirDiv /> */}
