@@ -9,7 +9,7 @@ const FunctionalNavbar = () => {
 
   return (
     <div className="fixed left-0 w-full  z-10">
-      <div className="flex max-w-[1530px] mx-auto justify-between items-center px-6  py-6 md:px-10 xl:px-28 ">
+      <div className="flex max-w-[1530px] mx-auto justify-between items-center px-6  py-6 md:px-10 xl:px-28 bg-white">
         <nav className="w-full ">
           <div className="justify-between px-4 mx-auto  lg:items-center lg:flex md:px-8">
             <div>
@@ -21,7 +21,7 @@ const FunctionalNavbar = () => {
                   alt="logo"
                   height={100}
                   width={200}
-                /> */} 
+                /> */}
                 <h1 className="text-2xl font-bold">Logo</h1>
 
                 {/* functional  button */}

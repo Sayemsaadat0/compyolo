@@ -15,18 +15,20 @@ import LandingPage from "@/components/core/motion/LandingPage";
 import SecondDiv from "@/components/core/motion/SecondDiv";
 import ThirDiv from "@/components/core/motion/ThirDiv";
 import CalenderTry from "@/components/calender/CalenderTry";
+import Gradient from "@/components/core/gradient/Gradient";
 
 export default function Home() {
   const client = new QueryClient();
   return (
-    <main className="">
+    <main className="py-44">
+      <Gradient />
       {/* <CalenderTry /> */}
       {/* <SecondDiv /> */}
       {/* <ThirDiv /> */}
+      {/* {/* <LandingPage /> */}
       {/* <LandingPage />
       <LandingPage />
-      <LandingPage />
-      <LandingPage /> */}
+      <LandingPage />  */}
       {/* <QueryClientProvider client={client}>
         <WithQuery />
         <AxiosFetch / >
