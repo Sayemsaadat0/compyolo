@@ -5,10 +5,14 @@ import NavAsideTry from "./comp/NavAsideTry";
 const template = ({ children }: { children: React.ReactNode }) => {
   return (
     <div className=" max-w-[1530px] mx-auto">
-      <div className="py-20 bg-amber-50 text-center">top content</div>
-      <div className="pt-20">
-        <NavAsideTry />
-        <div className="px-96">{children}</div>
+      <FunctionalNavbar />
+
+      <div className="pt-40">
+        <div className="py-20 bg-amber-50 text-center">top content</div>
+        <div className="pt-20">
+          <NavAsideTry />
+          <div className="px-96">{children}</div>
+        </div>
       </div>
     </div>
   );

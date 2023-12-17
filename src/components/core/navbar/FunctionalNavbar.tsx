@@ -3,9 +3,11 @@
 import Image from "next/image";
 import logo from "/public/images/Logo1.png";
 import { useState } from "react";
+import Link from "next/link";
 
 const FunctionalNavbar = () => {
   const [navbar, setNavbar] = useState(false);
+  
 
   return (
     <div className="fixed left-0 w-full  z-10">
@@ -22,7 +24,9 @@ const FunctionalNavbar = () => {
                   height={100}
                   width={200}
                 /> */}
-                <h1 className="text-2xl font-bold">Logo</h1>
+                <Link className="text-2xl font-bold" href="/">
+                  Logo
+                </Link>
 
                 {/* functional  button */}
                 <div className="lg:hidden">
@@ -72,7 +76,9 @@ const FunctionalNavbar = () => {
               >
                 <ul className="items-center justify-center space-y-8 lg:flex  md:space-x-4 xl:space-x-8 lg:space-y-0 text-lg font-bold">
                   <li>Home</li>
-                  <li>About Us </li>
+                  <li>
+                    <Link href="/profile">Profile</Link>
+                  </li>
                   <li>Course</li>
                   <li>Contact</li>
                   <li>Blogs</li>

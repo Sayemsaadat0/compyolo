@@ -3,7 +3,7 @@ import React from "react";
 
 const NavAsideTry = () => {
   return (
-    <div className="h-96 w-80 p-10 border fixed">
+    <div className="h-96 w-80 p-10 border absolute">
       <Link className="border" href="/profile">
         Profile
       </Link>
