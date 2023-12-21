@@ -18,12 +18,14 @@ import CalenderTry from "@/components/calender/CalenderTry";
 import Gradient from "@/components/core/gradient/Gradient";
 import MentorDetailCard from "@/components/core/card/MentorDetailCard";
 import TabTry from "@/components/core/tabtry/TabTry";
+import Buttons from "@/components/core/buttons/Buttons";
 
 export default function Home() {
   const client = new QueryClient();
   return (
     <main className="py-44 max-w-[1400px] mx-auto px-20">
-      <TabTry />
+      <Buttons label="sdksd" />
+      {/* <TabTry /> */}
       {/* <MentorDetailCard /> */}
       {/* <Gradient /> */}
       {/* <CalenderTry /> */}
