@@ -1,13 +1,12 @@
 "use client";
 
-import Image from "next/image";
-import logo from "/public/images/Logo1.png";
+// import Image from "next/image";
+// import logo from "/public/images/Logo1.png";
 import { useState } from "react";
 import Link from "next/link";
 
 const FunctionalNavbar = () => {
   const [navbar, setNavbar] = useState(false);
-  
 
   return (
     <div className="fixed left-0 w-full  z-10">
@@ -79,15 +78,17 @@ const FunctionalNavbar = () => {
                   <li>
                     <Link href="/profile">Profile</Link>
                   </li>
-                  <li>Course</li>
-                  <li>Contact</li>
-                  <li>Blogs</li>
+                  <li>
+                    <Link href="/myblog">My blog </Link>
+                  </li>
+                  <li>
+                    <Link href="/myblogtwo">My blog two</Link>
+                  </li>
                 </ul>
 
                 <div className="mt-3 space-y-2 lg:hidden inline-block">
                   <div className="">
                     <div className="flex gap-4">
-                      <button>login </button>
                       <button>login </button>
                     </div>
                   </div>
