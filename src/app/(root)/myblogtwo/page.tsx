@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import React, { FC, useState } from "react";
@@ -37,9 +35,9 @@ const MyBlogTwo = () => {
         {/* select */}
         <div className="relative">
           <Select
+            values={[]}
             labelField="name"
             valueField="id"
-            id="new"
             placeholder=" "
             multi
             options={options}

@@ -88,12 +88,12 @@
 }
 
 .css-9ma7ck-OptionComponent {
-  border: 1px solid blue;
-  padding: 10px 5px;
-  border-radius: 5px !important;
+  border: none !important;
+  padding: 10px 5px !important;
+  border-radius: 10px !important;
   line-height: 21px;
   margin: 3px 0 3px 5px;
-  background: #f1cdfb55 !important;
+  background: #cdfbf755 !important;
   color: #0007ed !important;
   display: -webkit-box;
   display: -webkit-flex;
@@ -106,7 +106,7 @@
 
 .css-wmy1p7-ReactDropdownSelect,
 .css-wmy1p7-ReactDropdownSelect {
-  border: 1 px solid black !important;
+  border: 1 px solid rgb(0, 36, 199) !important;
   border-radius: 10px !important;
 }
 .css-wmy1p7-ReactDropdownSelect:hover,
@@ -129,7 +129,7 @@
 }
 
 .css-z2hyoe-ItemComponent.react-dropdown-select-item-selected {
-  background: #b1bec9 !important;
+  background: #b1bfc9 !important;
   color: #fff;
   border-bottom: 1px solid #fff;
 }
