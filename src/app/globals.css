@@ -9,7 +9,10 @@
   text-align: center;
   background: #3c08a0 !important;
 }
-
+.active {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
 .swiper-pagination-bullet-active {
   opacity: 1;
   color: #fff;
@@ -134,11 +137,6 @@
   border-bottom: 1px solid #fff;
 }
 
-.css-wmy1p7-ReactDropdownSelect * {
-  /* box-sizing: border-box; */
-  /* padding: 0 10px !important; */
-}
-
 .css-1aarvou-DropdownHandleComponent {
   text-align: center;
   pointer-events: all;
@@ -171,7 +169,10 @@
   overflow: auto;
   z-index: 30 !important;
 }
-
+.css-wmy1p7-ReactDropdownSelect * {
+  /* box-sizing: border-box; */
+  /* padding: 0 10px !important; */
+}
 .slanted {
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }

@@ -38,7 +38,7 @@ const MyBlogTwo = () => {
             values={[]}
             labelField="name"
             valueField="id"
-            placeholder=" "
+            placeholder=""
             multi
             options={options}
             onChange={(values: any) => setSelectedOptions(values)}
